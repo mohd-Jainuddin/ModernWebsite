@@ -213,6 +213,10 @@ header{
     text-align: center;
 }
 
+.features-card img{
+    width: 60px;
+}
+
 /* Big feature section */
 
 .big-feature-section{
@@ -256,4 +260,52 @@ header{
 
 .examples-card:hover{
     box-shadow: 0 0 10px #888;
+}
+
+/* cta section */
+
+.cta-section-container{
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+}
+
+.cta-section{
+    background-color: #183b54;
+    padding: 120px var(--padding-inline-section);
+}
+
+.cta-section-container p{
+    color: white;
+    margin-top: 20px;
+}
+
+/* Footer */
+
+footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* sub footer */
+
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
 }
