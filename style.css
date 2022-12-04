@@ -346,12 +346,11 @@ footer{
     }
 
     .footer-container .company-logo img{
-        background-color: red;
         display: none;
     }
 
     .example-area{
-        width: 95rem;
+        width: 90rem;
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 10px;
