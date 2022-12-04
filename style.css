@@ -309,3 +309,59 @@ footer{
     justify-content: center;
     gap: 30px;
 }
+
+.bar{
+    display: none;
+}
+
+@media only screen and (max-width:700px){
+    .header-section{
+        display: block;
+    }
+
+    .header-section img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .header-section h1{
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .header-section p{
+        font-size: 15px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-links img{
+        width: 80%;
+    }
+
+    .bar{
+        display: block;
+    }
+
+    .footer-container .company-logo img{
+        background-color: red;
+        display: none;
+    }
+
+    .example-area{
+        width: 95rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+    .example-area img{
+        width: 100%;
+    }
+
+    .hidden{
+        display: none;
+    }
+}
